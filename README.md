@@ -69,14 +69,14 @@ npm start
 
 
 ## Folder Structure
-AGO-Lender/ │ ├── src/ 
-# Source code files ├── assets/ 
-# Images, CSS, and other resources ├── config/ 
-# Configuration files ├── docs/
-# Documentation ├── test/ 
-# Testing files ├── README.md 
-# Project documentation ├── package.json 
-# Node.js dependencies └── .gitignore
+**AGO-Lender/ │ ├── src/**
+**Source code files ├── assets/** 
+**Images, CSS, and other resources ├── config/** 
+**Configuration files ├── docs/**
+**Documentation ├── test/** 
+**Testing files ├── README.md** 
+**Project documentation ├── package.json** 
+**Node.js dependencies └── .gitignore**
 
 
 ## Contributing
