@@ -1,128 +1,67 @@
-# AGO-Lender
+# NeoX-Lender
 
 ## Overview
-AGO-Lender is a modern lending platform aimed at simplifying the lending process for both lenders and borrowers. By utilizing advanced technologies and secure architecture, AGO-Lender ensures safe, efficient, and user-friendly transactions for everyone involved.
+NeoX-Lender is a decentralized lending platform leveraging blockchain technology for secure, transparent, and efficient lending services. Built using NeoX and smart contracts, this platform enables users to lend and borrow assets seamlessly, while utilizing GAS tokens for transactions.
 
----
+shell
+Copy code
 
 ## Table of Contents
-- [Features](#features)
-- [Vision](#vision)
-- [Business Model](#business-model)
-- [Future Scope](#future-scope)
-- [Installation](#installation)
-- [Folder Structure](#folder-structure)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
-
----
+Features
+Installation
+Smart Contracts
+Usage
+Testing
+Folder Structure
+Contributing
+License
+Contact
+shell
+Copy code
 
 ## Features
-- **Lend and Borrow Assets**: Streamlined platform for seamless lending and borrowing.
-- **Secure Transactions**: Implements cutting-edge encryption and secure architecture.
-- **Scalable and Efficient**: Built to handle a growing user base without compromising performance.
-- **Analytics and Insights**: Tools for lenders and borrowers to make informed decisions.
-
----
-
-## Vision
-AGO-Lender envisions a future where financial inclusion is accessible to everyone through a transparent, efficient, and technology-driven lending ecosystem.
-
----
-
-## Business Model
-1. **Transaction Fees**: A nominal fee on every successful transaction.
-2. **Subscription Plans**: Premium features for advanced analytics and priority support.
-3. **Partnerships**: Collaborations with financial institutions for enhanced services.
-
----
-
-## Future Scope
-- **AI-Driven Credit Scoring**: Improve lending decisions through data-driven insights.
-- **Blockchain Integration**: Introduce decentralized technologies for enhanced transparency.
-- **Global Expansion**: Support for multi-currency and cross-border transactions.
-- **Mobile Platform**: Launch dedicated apps for iOS and Android.
-
----
+Lend and Borrow Assets: Users can lend and borrow crypto assets securely.
+Decentralized Governance: All operations are executed using smart contracts.
+NeoX Integration: Utilizes NeoX GAS tokens for transactions.
+Secure and Transparent: Ensures security through decentralized ledger technology.
+shell
+Copy code
 
 ## Installation
 
 ### Prerequisites
-Make sure you have the following installed:
-- Node.js (version 14 or above)
-- npm (Node Package Manager)
-- Git (optional for cloning the repository)
+Make sure you have the following installed on your machine:
+
+Node.js (version 14 or above)
+Truffle
+Ganache (optional for local blockchain testing)
+MetaMask for interacting with the platform
+shell
+Copy code
 
 ### Steps
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/Yashraj-001/AGO-Lender.git
-   cd AGO-Lender
-### Install dependencies:
+Clone the repository: git clone https://github.com/Yashraj-001/NeoX-Lender.git cd NeoX-Lender
 
-### bash
-### npm install
-### Start the application:
+Install dependencies: npm install
 
-### bash
-### npm start
-### Folder Structure
+Compile smart contracts: truffle compile
 
-### AGO-Lender/
-### │
-### ├── src/                   # Source code files
-### ├── assets/                # Images, CSS, and other resources
-### ├── config/                # Configuration files
-### ├── docs/                  # Documentation
-### ├── test/                  # Testing files
-### ├── README.md              # Project documentation
-### ├── package.json           # Node.js dependencies
-### └── .gitignore             # Files to ignore in version control
-### Contributing
-### We welcome contributions from the community!
+Deploy the contracts: truffle migrate --network <network-name> Replace <network-name> with the appropriate network (e.g., development, mainnet, etc.).
 
-### Steps for Contributing:
-### Fork the Repository:
-### Click the "Fork" button at the top right of this repository to create your copy.
- 
-Create a New Branch:
-Use a descriptive name for your branch:
+Start the frontend: cd frontend npm start
 
-bash
+shell
 Copy code
-git checkout -b feature/your-feature-name
-Make Changes:
-Implement your changes and test them thoroughly.
 
-Commit Changes:
-Write clear and concise commit messages:
+## Smart Contracts
 
-bash
+### Key Contracts
+Lender.sol: Core contract managing lending and borrowing.
+Token.sol: Implements the token standard for interacting assets.
+shell
 Copy code
-git commit -m "Add your message here"
-Push to GitHub:
-Push your changes to your forked repository:
 
-bash
-Copy code
-git push origin feature/your-feature-name
-Submit a Pull Request:
-Go to the original repository, click on "Pull Requests," and submit your PR.
+## Usage
 
-Please ensure your contributions:
-
-Follow the coding standards of the project.
-Include comments for better code readability.
-Are well-documented and thoroughly tested.
-License
-This project is licensed under the MIT License.
-See the LICENSE file for details.
-
-Contact
-For any questions, suggestions, or feedback, feel free to reach out:
-
-Name: Yash Rathore
-Email: yashrathore@example.com
-GitHub: Yashraj-001
-LinkedIn: Yash Rathore
+### Interacting with Contracts
+Deploy Contracts: Deploy contracts using the migration script provided in the scripts/deploy.js.
