@@ -73,7 +73,7 @@ shell
 Copy code
 
 ## Folder Structure
-AGO-Lender/ │ ├── contracts/ # Smart Contracts │ ├── Lender.sol │ └── Token.sol │ ├── scripts/ # Deployment and interaction scripts │ ├── deploy.js │ └── interact.js │ ├── test/ # Smart contract tests │ └── Lender.test.js │ ├── frontend/ # Frontend code (React.js or similar framework) │ ├── src/ │ └── public/ │ ├── docs/ # Documentation │ └── architecture.md │ ├── .gitignore # Ignore specific files in version control ├── README.md # Project documentation ├── package.json # Node.js dependencies └── truffle-config.js # Truffle configuration for deployment
+AGO-Lender/ │ ├── contracts/ # Smart Contracts │ ├── Lender.sol # Core contract managing lending and borrowing │ └── Token.sol # Implements the token standard for interacting with assets │ ├── scripts/ # Deployment and interaction scripts │ ├── deploy.js # Script to deploy contracts │ └── interact.js # Script for interacting with deployed contracts │ ├── test/ # Smart contract tests │ └── Lender.test.js # Unit tests for the Lender contract │ ├── frontend/ # Frontend code (React.js or similar framework) │ ├── src/ # Source code for the frontend │ └── public/ # Public assets like HTML, images, etc. │ ├── docs/ # Documentation │ └── architecture.md # Documentation for system architecture │ ├── .gitignore # Git ignore file ├── README.md # Project documentation ├── package.json # Node.js dependencies └── truffle-config.js # Truffle configuration for deployment
 
 shell
 Copy code
@@ -101,5 +101,5 @@ Copy code
 For any questions or feedback, feel free to reach out:
 
 Yash Rathore - LinkedIn | GitHub
-sql
+vbnet
 Copy code
