@@ -63,22 +63,22 @@ Make sure you have the following installed:
 
 ### Steps
 1. Install dependencies:
-   ```bash
    npm install
 Start the application:
-bash
-Copy code
 npm start
-shell
-Copy code
 
-```markdown
+
 ## Folder Structure
-AGO-Lender/ │ ├── src/ # Source code files ├── assets/ # Images, CSS, and other resources ├── config/ # Configuration files ├── docs/ # Documentation ├── test/ # Testing files ├── README.md # Project documentation ├── package.json # Node.js dependencies └── .gitignore # Files to ignore in version control
+AGO-Lender/ │ ├── src/ 
+# Source code files ├── assets/ 
+# Images, CSS, and other resources ├── config/ 
+# Configuration files ├── docs/
+# Documentation ├── test/ 
+# Testing files ├── README.md 
+# Project documentation ├── package.json 
+# Node.js dependencies └── .gitignore
 
-Copy code
-markdown
-Copy code
+
 ## Contributing
 We welcome contributions from the community!
 
@@ -90,17 +90,13 @@ We welcome contributions from the community!
 
 Please ensure your contributions adhere to the coding standards and are well-documented.
 
-markdown
-Copy code
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-markdown
-Copy code
+
 ## Contact
 For questions, suggestions, or feedback, reach out to:
 
 Name: Yash Rathore  
-Email: yashrathore@example.com  
-GitHub: [Yashraj-001](https://github.com/Yashraj-001)  
-LinkedIn: [Yash Rathore](https://www.linkedin.com/in/yash-rathore/)
+GitHub: (https://github.com/Yashraj-001)  
+LinkedIn: (https://www.linkedin.com/in/yash--rathore/)
