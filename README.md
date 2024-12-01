@@ -59,46 +59,48 @@ Make sure you have the following installed:
    ```bash
    git clone https://github.com/Yashraj-001/AGO-Lender.git
    cd AGO-Lender
-Install dependencies:
+## Installation
 
-bash
-Copy code
-npm install
+### Steps
+1. Install dependencies:
+   ```bash
+   npm install
 Start the application:
-
 bash
 Copy code
 npm start
-Folder Structure
-bash
+shell
 Copy code
-AGO-Lender/
-│
-├── src/                   # Source code files
-├── assets/                # Images, CSS, and other resources
-├── config/                # Configuration files
-├── docs/                  # Documentation
-├── test/                  # Testing files
-├── README.md              # Project documentation
-├── package.json           # Node.js dependencies
-└── .gitignore             # Files to ignore in version control
-Contributing
+
+```markdown
+## Folder Structure
+AGO-Lender/ │ ├── src/ # Source code files ├── assets/ # Images, CSS, and other resources ├── config/ # Configuration files ├── docs/ # Documentation ├── test/ # Testing files ├── README.md # Project documentation ├── package.json # Node.js dependencies └── .gitignore # Files to ignore in version control
+
+Copy code
+markdown
+Copy code
+## Contributing
 We welcome contributions from the community!
 
-Steps for Contributing:
-Fork the repository.
-Create a new branch for your changes.
-Test your changes thoroughly.
-Submit a pull request.
+### Steps for Contributing:
+1. Fork the repository.
+2. Create a new branch for your changes.
+3. Test your changes thoroughly.
+4. Submit a pull request.
+
 Please ensure your contributions adhere to the coding standards and are well-documented.
 
-License
+markdown
+Copy code
+## License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-Contact
+markdown
+Copy code
+## Contact
 For questions, suggestions, or feedback, reach out to:
 
-Name: Yash Rathore
-Email: yashrathore@example.com
-GitHub: Yashraj-001
-LinkedIn: Yash Rathore
+Name: Yash Rathore  
+Email: yashrathore@example.com  
+GitHub: [Yashraj-001](https://github.com/Yashraj-001)  
+LinkedIn: [Yash Rathore](https://www.linkedin.com/in/yash-rathore/)
