@@ -59,36 +59,33 @@ Make sure you have the following installed:
    ```bash
    git clone https://github.com/Yashraj-001/AGO-Lender.git
    cd AGO-Lender
-Install dependencies:
+### Install dependencies:
 
-bash
-Copy code
-npm install
-Start the application:
+### bash
+### npm install
+### Start the application:
 
-bash
-Copy code
-npm start
-Folder Structure
-bash
-Copy code
-AGO-Lender/
-│
-├── src/                   # Source code files
-├── assets/                # Images, CSS, and other resources
-├── config/                # Configuration files
-├── docs/                  # Documentation
-├── test/                  # Testing files
-├── README.md              # Project documentation
-├── package.json           # Node.js dependencies
-└── .gitignore             # Files to ignore in version control
-Contributing
-We welcome contributions from the community!
+### bash
+### npm start
+### Folder Structure
 
-Steps for Contributing:
-Fork the Repository:
-Click the "Fork" button at the top right of this repository to create your copy.
+### AGO-Lender/
+### │
+### ├── src/                   # Source code files
+### ├── assets/                # Images, CSS, and other resources
+### ├── config/                # Configuration files
+### ├── docs/                  # Documentation
+### ├── test/                  # Testing files
+### ├── README.md              # Project documentation
+### ├── package.json           # Node.js dependencies
+### └── .gitignore             # Files to ignore in version control
+### Contributing
+### We welcome contributions from the community!
 
+### Steps for Contributing:
+### Fork the Repository:
+### Click the "Fork" button at the top right of this repository to create your copy.
+ 
 Create a New Branch:
 Use a descriptive name for your branch:
 
