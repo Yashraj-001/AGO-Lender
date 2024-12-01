@@ -1,0 +1,3 @@
+---
+- name: start service
+  systemd: 'name={{service}} state=started enabled=yes'

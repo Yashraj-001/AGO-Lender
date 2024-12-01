@@ -1,0 +1,22 @@
+{
+  "bootstrap": "bootstrap",
+  "bundles": {
+    "dude": {
+      "sourceSpec": "vat-dude-terminate.js"
+    }
+  },
+  "vats": {
+    "bootstrap": {
+      "sourceSpec": "bootstrap-terminate.js"
+    },
+    "staticNonCritical": {
+      "bundleName": "dude"
+    },
+    "staticCritical": {
+      "bundleName": "dude",
+      "creationOptions": {
+        "critical": true
+      }
+    }
+  }
+}

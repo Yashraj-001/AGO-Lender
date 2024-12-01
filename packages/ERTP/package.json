@@ -1,0 +1,82 @@
+{
+  "name": "@agoric/ertp",
+  "version": "0.16.2",
+  "description": "Electronic Rights Transfer Protocol (ERTP). A smart contract framework for exchanging electronic rights",
+  "type": "module",
+  "main": "src/index.js",
+  "engines": {
+    "node": "^18.12 || ^20.9"
+  },
+  "scripts": {
+    "build": "exit 0",
+    "prepack": "tsc --build tsconfig.build.json",
+    "postpack": "git clean -f '*.d.ts*' '*.tsbuildinfo'",
+    "test": "ava",
+    "test:c8": "c8 --all $C8_OPTIONS ava",
+    "test:xs": "yarn test:xs-worker",
+    "test:xs-unit": "exit 0",
+    "test:xs-worker": "SWINGSET_WORKER_TYPE=xs-worker ava -c 2 test/swingsetTests",
+    "lint-fix": "yarn lint:eslint --fix",
+    "lint": "run-s --continue-on-error lint:*",
+    "lint:eslint": "eslint .",
+    "lint:types": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Agoric/agoric-sdk.git"
+  },
+  "keywords": [
+    "smart",
+    "contract",
+    "cryptocurrency",
+    "exchange",
+    "tokens"
+  ],
+  "author": "Agoric",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/Agoric/agoric-sdk/issues"
+  },
+  "homepage": "https://github.com/Agoric/agoric-sdk#readme",
+  "dependencies": {
+    "@endo/errors": "^1.2.8",
+    "@agoric/notifier": "^0.6.2",
+    "@agoric/store": "^0.9.2",
+    "@agoric/vat-data": "^0.5.2",
+    "@agoric/zone": "^0.2.2",
+    "@endo/eventual-send": "^1.2.8",
+    "@endo/far": "^1.1.9",
+    "@endo/marshal": "^1.6.2",
+    "@endo/nat": "^5.0.13",
+    "@endo/patterns": "^1.4.7",
+    "@endo/promise-kit": "^1.1.8"
+  },
+  "devDependencies": {
+    "@agoric/swingset-vat": "^0.32.2",
+    "@endo/bundle-source": "^3.5.0",
+    "@fast-check/ava": "^1.1.5",
+    "ava": "^5.3.0",
+    "tsd": "^0.31.1"
+  },
+  "files": [
+    "src",
+    "NEWS.md",
+    "exported.js",
+    "exported.d.ts"
+  ],
+  "ava": {
+    "files": [
+      "test/**/*.test.*"
+    ],
+    "require": [
+      "@endo/init/debug.js"
+    ],
+    "timeout": "5m"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "typeCoverage": {
+    "atLeast": 91.76
+  }
+}
